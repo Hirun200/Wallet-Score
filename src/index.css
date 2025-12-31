@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* In v4, you put your custom theme colors directly in CSS! */
+@theme {
+  --color-brand-dark: #0F1115;
+  --color-brand-card: #16191E;
+  --color-brand-border: #262B33;
+  --color-brand-accent: #3B82F6;
+  
+  --color-hygiene-green: #10B981;
+  --color-hygiene-amber: #F59E0B;
+  --color-hygiene-red: #EF4444;
+}
+
+body {
+  background-color: var(--color-brand-dark);
+  color: #e2e8f0; /* slate-200 */
+}
